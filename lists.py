@@ -21,6 +21,11 @@ def list_extension():
     list_example.extend([8,9])
     print(list_example)
 
+def creating_list_from_input_str():
+    # type a calues separated by sign ','
+    example_values = input().split(',')
+    # create a list of elements that are separated using by ',' sign
+    print(example_values)
 
 # This construction is to run program in internal or when the module is imported
 if __name__ == "__main__":
