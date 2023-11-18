@@ -8,8 +8,7 @@ full_table = []
 full_table.extend(letter_table)
 full_table.extend(number_table)
 full_table.extend(sign_table)
-
-print(full_table)
+  print(full_table)
 password = ''
 password2 =''
 
