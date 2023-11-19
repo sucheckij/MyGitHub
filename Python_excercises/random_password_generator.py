@@ -20,7 +20,7 @@ for i in range(0,6):
     #example2
     password2 += str(random.choice(full_table)).upper()
 
-    #example3
+    #example3s
     # - there can be used random.shuffle(x)
 
 print(password)
